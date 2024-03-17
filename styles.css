@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; /* Use Material UI's recommended font */
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f0f0f0; /* Use a light background color */
+}
+
+header {
+    background-color: #003366;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.logo i {
+    font-size: 2rem; /* Adjust icon size */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Add transition for smoother color change */
+}
+
+nav ul li a:hover {
+    color: #FFA500; /* Highlight color on hover */
+}
+
+.hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 3rem; /* Adjust heading size */
+    margin-bottom: 20px; /* Add spacing below heading */
+}
+
+.hero p {
+    font-size: 1.25rem; /* Adjust paragraph size */
+    margin-bottom: 40px; /* Add more spacing below paragraph */
+}
+
+.btn {
+    display: inline-block;
+    background-color: #FFA500;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background-color 0.3s ease; /* Add transition for smoother color change */
+}
+
+.btn:hover {
+    background-color: #FF8C00;
+}
+
+footer {
+    background-color: #003366;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-links ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Add transition for smoother color change */
+}
+
+.footer-links ul li a:hover {
+    color: #FFA500; /* Highlight color on hover */
+}
+
+.social-icons a {
+    margin-left: 10px;
+}
+/* Add your custom CSS styles here */
+/* Example: */
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Header styles */
+header {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+/* Section styles */
+section {
+    padding: 60px 0;
+}
+
+section h2 {
+    margin-bottom: 30px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 20px 0;
+}
